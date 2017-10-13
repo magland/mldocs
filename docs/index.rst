@@ -5,6 +5,11 @@ MountainLab is data processing, sharing and visualization software for scientist
 
 MountainLab is built in layers in order to maintain flexibility and simplicity. The bottom layer allows users to run individual processing commands from a Linux terminal. The top layers allow cloud-based data processing and sharing of analysis pipelines and results through web browser interfaces.
 
+Installation and Getting started
+--------------------------------
+
+:doc:`installation/mountainlab_installation`
+
 Software components
 -------------------
 
@@ -51,14 +56,17 @@ The software comprises the following components:
 
 ..
 
-Miscellaneous
--------------
-
-:doc:`misc/waveform_drift`
-
+Miscellaneous topics
+--------------------
 
 .. toctree::
    :maxdepth: 2
+
+  misc/preparing_raw_data
+  misc/waveform_drift
+  misc/cordion_plans
+
+  
 
 
 .. Indices and tables
